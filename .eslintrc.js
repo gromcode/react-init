@@ -18,7 +18,5 @@ module.exports = {
     ecmaVersion: 2021,
     sourceType: 'module',
   },
-  rules: {
-    'no-console': 0,
-  },
+  rules: {},
 };
