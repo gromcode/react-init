@@ -1,6 +1,5 @@
 module.exports = {
-  plugins: ['babel', 'import', 'prettier'],
-  extends: ['airbnb-base', 'plugin:prettier/recommended', 'plugin:react/recommended'],
+  extends: ['airbnb-base', 'plugin:react/recommended', 'plugin:prettier/recommended'],
   env: {
     es6: true,
     node: true,
@@ -29,7 +28,7 @@ module.exports = {
       },
     },
     react: {
-      version: '16.14',
+      version: 'detect',
     },
   },
 };
