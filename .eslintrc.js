@@ -6,6 +6,7 @@ module.exports = {
     jest: true,
     browser: true,
   },
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
